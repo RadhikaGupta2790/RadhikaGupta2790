@@ -77,7 +77,10 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/RadhikaGupta2790/RadhikaGupta2790/output/snake.svg" alt="Snake animation" />
+<h2 align="center">Snake Animation</h2>
+
+![Snake animation](https://github.com/YourGitHubUsername/RepositoryName/blob/output/snake.svg)
+
 
 ###
 
