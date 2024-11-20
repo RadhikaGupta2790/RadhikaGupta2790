@@ -19,7 +19,7 @@
 
 ## 🚀 Skills & Expertise  
 
-| **Domain Expertise**        | SoC Validation, Debugging, DFx, |  
+|**Domain Expertise**        | SoC Validation, Debugging, DFx, |  
 |------------------------------|-------------------------------------------------|  
 | **Programming Languages**   | Python, Tcl, Shell Scripting, SQL, MATLAB        |  
 | **Debugging Tools**         | JTAG, GDB, OpenOCD, Hardware Tracing             |  
@@ -33,17 +33,17 @@
 ### **1. SoC Debugging Toolkit for Functional Validation: Hardware Tracing**  
 - **Description**: Developed a Python-based toolkit enabling hardware trace programming and debugging for SoC validation teams.  
 - **Skills**: Python, JTAG, GDB, OpenOCD  
-- **[Repository Link](#)**  
+<!-- - **[Repository Link](#)**  -->
 
 ### **2. OpenOCD Enablement on Raspberry Pi (PoC)**  
 - **Description**: Configured and enabled OpenOCD on Raspberry Pi using JLink debugger, executing GDB commands for debugging.  
 - **Skills**: OpenOCD, GDB, Raspberry Pi  
-- **[Repository Link](#)**  
+<!-- - **[Repository Link](#)**  -->
 
 ### **3. Image Segmentation (Master’s Thesis)**  
 - **Description**: Researched and developed segmentation algorithms to enhance data analysis and image processing.  
 - **Skills**: Python, OpenCV, Scikit-learn  
-- **[Repository Link](#)**  
+<!-- - **[Repository Link](#)**  -->
 
  
 ---
