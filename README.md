@@ -79,7 +79,7 @@
 
 <h2 align="center">Snake Animation</h2>
 
-![Snake animation](https://github.com/YourGitHubUsername/RepositoryName/blob/output/snake.svg)
+![Snake animation](https://github.com/RadhikaGupta2790/RepositoryName/blob/output/snake.svg)
 
 
 ###
