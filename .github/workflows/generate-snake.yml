@@ -14,7 +14,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v2
         with:
-          github_user_name: YourGitHubUsername
+          github_user_name: RadhikaGupta2790
           outputs: dist/snake.svg
 
   output:
