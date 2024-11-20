@@ -6,22 +6,24 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
+
       - name: Generate Snake Animation
-        uses: Platane/snk@v2
+        uses: giphy-actions/snake@v2
         with:
           github_user_name: RadhikaGupta2790
-          outputs: dist/snake.svg
+          output_dir: dist/
+          filename: snake.svg
 
-  output:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Upload Snake Animation
-        uses: actions/upload-artifact@v2
+      - name: Commit and push the generated snake.svg
+        uses: EndBug/add-and-commit@v7
         with:
-          name: snake
-          path: dist/snake.svg
+          author_name: "GitHub Actions"
+          author_email: "github-actions@users.noreply.github.com"
+          message: "Add snake animation"
+          add: "dist/snake.svg"
