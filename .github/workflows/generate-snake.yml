@@ -13,9 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Generate Snake Animation using Node.js
+      - name: Set up Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies and generate Snake Animation
         run: |
-          sudo apt-get install -y nodejs npm
           npm install -g github-readme-stats
           node -e "
             const ghStats = require('github-readme-stats');
